@@ -1,0 +1,13 @@
+name: HideAndSeek
+description: Starts a game of Hide & Seek!
+main: legorvegenine.HideAndSeek
+version: 1.0
+commands:
+   hideandseek:
+      description: Play a game of Hide & Seek!
+      usage: /hideandseek
+      
+permissions:
+    canDefineNewRegions:
+        description: OPs can create and manage HideAndSeek regions.
+        default: op
